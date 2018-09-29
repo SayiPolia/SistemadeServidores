@@ -7,7 +7,7 @@ Descripcion
 
 ####Se dejan imagenes liustrativas del proyecto.
 
-![Alt text](imagen1.jpg "Pagina de bienvenida")
-![Alt text](imagen2.jpg "Desde el perfil de Admin, el alta de un servidor")
-![Alt text](imagen3.jpg "Desde el perfil de Admin, las solicitudes recibidas")
-![Alt text](imagen4.jpg "Desde el perfil de Admin, los servidores disponibles")
+![Alt text](imagen1.png "Pagina de bienvenida")
+![Alt text](imagen2.png "Desde el perfil de Admin, el alta de un servidor")
+![Alt text](imagen3.png "Desde el perfil de Admin, las solicitudes recibidas")
+![Alt text](imagen4.png "Desde el perfil de Admin, los servidores disponibles")
