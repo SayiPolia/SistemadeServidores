@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <welcome-file-list>
+    <welcome-file>homepage</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>ServidorController</servlet-name>
+    <servlet-class>controller.ServidorController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SiteController</servlet-name>
+    <servlet-class>controller.SiteController</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>solicitudController</servlet-name>
+    <servlet-class>controller.solicitudController</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServidorController</servlet-name>
+    <url-pattern>/servidorcontroller</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SiteController</servlet-name>
+    <url-pattern>/homepage</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>solicitudController</servlet-name>
+    <url-pattern>/solicitudcontroller</url-pattern>
+  </servlet-mapping>
+</web-app>
